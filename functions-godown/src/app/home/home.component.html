@@ -1,0 +1,3 @@
+<div class="container">
+    <button *ngFor="let btn of btnArray" [ngStyle]="{backgroundColor: btn.btnColor}"><a [routerLink]="btn.btnLink">{{btn.btnName}}</a></button>
+</div>
